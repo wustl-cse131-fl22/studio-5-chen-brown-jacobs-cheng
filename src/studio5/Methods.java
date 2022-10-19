@@ -90,7 +90,15 @@ public class Methods {
 		int sum = 0;
 		// FIXME: Compute the sum of the values in an array
 		
+		
+		for (int i=0; i < values.length; i++) {
+		
+			sum = sum + values[i];
+			
+		}
 		return sum;
+		
+		
 	}
 
 	/**
